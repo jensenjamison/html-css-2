@@ -1,0 +1,97 @@
+body {
+    background-color: blue; 
+}
+
+header {
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a:hover {
+    color: lightgray;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content:center;
+    width: 50%;
+}
+
+.button {
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+
+button:hover {
+    background-color: skyblue;
+    box-shadow: none;
+}
+
+.Title {
+    color: white;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif, Impact;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    margin-top: 20vh;
+     
+}
+
+.Title p {
+    width: 90%;
+    font-size: 17px;
+    line-height: 200%;
+    text-align: center;
+}
+
+.button2 {
+    background-color:white;
+    border: 1px;
+    color: blue;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.button2:hover {
+    background-color: lightgray;
+}
+
+#scroll {
+    font-size: 10px;
+}
+
+
+#container {
+    display: flex;
+
+
+}
+.invision {
+    transform: rotate(-90deg) translate(-20px, -40px);
+    margin-left: 0px;
+    width: 150px;
+    color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 12px
+}
+
